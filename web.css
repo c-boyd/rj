@@ -98,6 +98,7 @@ body {
   width: 100%;
   max-width:900px;
   height: auto;
+  padding: 5px;
 }
 
 .content h1 {
