@@ -36,7 +36,16 @@ ul.nav h1 a {
 }
 
 @media screen and (max-width: 800px) {
-  ul.nav li {float: none;}
+  ul.nav li {
+    float: none;
+  }
+  ul.nav h1 {
+    font: bold 20px bookman-jf-pro;
+  }
+  ul.nav li a {
+    padding: 0px 10px 0px 15px;
+    font: 14px brandon-grotesque;
+  }
 }
 
 /* MAIN CONTENT */
@@ -64,7 +73,7 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-.content {margin-top: 220px;}
+.content {margin-top: 170px;}
    .first-column {
         width: 100%;
         padding-bottom: 10px;
